@@ -17,6 +17,7 @@ rl.on('line', function (line)
 {
     let row = []
     // add each character in each line to an array
+    // not adding the newlines (\n) character
     for (let i = 0; i < line.length; ++i)
     {
         if (line.charAt(i) == '#' || line.charAt(i) == ' ')
