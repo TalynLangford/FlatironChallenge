@@ -17,7 +17,7 @@ for line in fileinput.input():
 
 for n in nums:
     if (n % int(fb[0]) == 0 and n % int(fb[1]) == 0):
-        print("{}\n{}".format(w[0], w[1])),
+        print("{} {}".format(w[0], w[1])),
     elif(n % int(fb[0]) == 0):
         print(w[0])
     elif(n % int(fb[1]) == 0):
